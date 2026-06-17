@@ -2,20 +2,157 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic portfolio website for a researcher, including research, publications, teaching, and contact information.">
+  <title>Dr. Alex Morgan | Academic Website</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Hello, I am Kuba</h1>
-    <p>Welcome to my website.</p>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#home">Dr. Alex Morgan</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
   </header>
 
   <main>
-    <section>
-      <h2>About me</h2>
-      <p>I am an astronomer working on galaxy evolution.</p>
+    <section id="home" class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">Department of Social Data Science</p>
+        <h1>Researcher studying technology, institutions, and public life.</h1>
+        <p class="lead">
+          I am an assistant professor whose work combines computational methods,
+          policy analysis, and field research to understand how digital systems
+          shape civic participation.
+        </p>
+        <div class="hero-actions" aria-label="Profile links">
+          <a class="button primary" href="#research">View Research</a>
+          <a class="button secondary" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+      <aside class="profile-panel" aria-label="Academic profile summary">
+        <img class="workspace-image" src="assets/academic-workspace.svg" alt="Illustration of an academic desk with books, notes, and a laptop.">
+        <div class="portrait" aria-hidden="true">AM</div>
+        <h2>Dr. Alex Morgan</h2>
+        <p>Assistant Professor<br>University Name</p>
+        <ul>
+          <li>Computational social science</li>
+          <li>Digital governance</li>
+          <li>Public interest technology</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section id="research" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Research</p>
+        <h2>Current Projects</h2>
+      </div>
+      <div class="grid three">
+        <article class="card">
+          <h3>Platform Governance</h3>
+          <p>
+            Examining how rules, moderation systems, and institutional design
+            affect public discourse on large-scale digital platforms.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Civic Data Infrastructure</h3>
+          <p>
+            Studying how public agencies collect, maintain, and share data for
+            accountability, planning, and community participation.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Algorithmic Accountability</h3>
+          <p>
+            Developing methods to audit automated decision systems and evaluate
+            their effects across social groups and institutions.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">Publications</p>
+        <h2>Selected Work</h2>
+      </div>
+      <div class="publication-list">
+        <article class="publication">
+          <div>
+            <h3>Digital Institutions and the Future of Public Participation</h3>
+            <p>Journal of Civic Technology, 2026</p>
+          </div>
+          <a href="#" aria-label="Read Digital Institutions and the Future of Public Participation">Paper</a>
+        </article>
+        <article class="publication">
+          <div>
+            <h3>Auditing Automated Systems in Local Government</h3>
+            <p>Proceedings of the Conference on Fairness, Accountability, and Transparency, 2025</p>
+          </div>
+          <a href="#" aria-label="Read Auditing Automated Systems in Local Government">Paper</a>
+        </article>
+        <article class="publication">
+          <div>
+            <h3>Data Practices and Institutional Trust</h3>
+            <p>Public Administration Review, 2024</p>
+          </div>
+          <a href="#" aria-label="Read Data Practices and Institutional Trust">Paper</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="teaching" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Teaching</p>
+        <h2>Courses</h2>
+      </div>
+      <div class="grid two">
+        <article class="card">
+          <h3>Introduction to Computational Social Science</h3>
+          <p>
+            Undergraduate course covering research design, data ethics,
+            reproducible workflows, and applied analysis.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Technology Policy Studio</h3>
+          <p>
+            Graduate seminar where students develop policy briefs and technical
+            assessments for real-world public interest technology questions.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's Connect</h2>
+      </div>
+      <div class="contact-card">
+        <p>
+          I welcome inquiries from students, collaborators, journalists, and
+          public sector teams interested in responsible technology research.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:alex.morgan@example.edu">alex.morgan@example.edu</a>
+          <a href="https://scholar.google.com" rel="noreferrer">Google Scholar</a>
+          <a href="https://github.com" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <p>Copyright 2026 Dr. Alex Morgan. Built with HTML and CSS.</p>
+  </footer>
 </body>
 </html>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Academic workspace</title>
+  <desc id="desc">A quiet desk with a laptop, books, papers, and a window.</desc>
+  <rect width="960" height="600" fill="#eef3f1"/>
+  <rect x="0" y="0" width="960" height="250" fill="#dce8e4"/>
+  <rect x="86" y="58" width="254" height="156" rx="8" fill="#f7f5ef"/>
+  <path d="M108 184h210" stroke="#9fb5af" stroke-width="8" stroke-linecap="round"/>
+  <path d="M130 142h166M130 110h132" stroke="#9fb5af" stroke-width="10" stroke-linecap="round"/>
+  <rect x="630" y="54" width="190" height="160" rx="8" fill="#f7f5ef"/>
+  <path d="M656 184h138M656 148h122M656 112h92" stroke="#9fb5af" stroke-width="10" stroke-linecap="round"/>
+  <rect x="72" y="390" width="816" height="70" rx="8" fill="#9c6f35"/>
+  <path d="M118 390h724" stroke="#b7832f" stroke-width="8" stroke-linecap="round"/>
+  <rect x="350" y="240" width="260" height="164" rx="10" fill="#1e2528"/>
+  <rect x="372" y="262" width="216" height="118" rx="4" fill="#c9ddd8"/>
+  <path d="M450 404h60l22 44H428z" fill="#5f6b70"/>
+  <rect x="300" y="448" width="356" height="18" rx="9" fill="#1e2528"/>
+  <rect x="134" y="314" width="144" height="38" rx="6" fill="#176b68"/>
+  <rect x="152" y="276" width="144" height="38" rx="6" fill="#b7832f"/>
+  <rect x="174" y="238" width="144" height="38" rx="6" fill="#f7f5ef"/>
+  <path d="M188 260h92M166 298h92M148 336h92" stroke="#1e2528" stroke-width="6" stroke-linecap="round" opacity=".35"/>
+  <path d="M682 286l138 34-28 112-138-34z" fill="#fff"/>
+  <path d="M704 326l76 18M696 358l88 22M688 388l60 16" stroke="#9fb5af" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="672" cy="206" r="34" fill="#176b68"/>
+  <path d="M654 206h36M672 188v36" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+  <rect x="0" y="506" width="960" height="94" fill="#176b68"/>
+  <path d="M118 540h724" stroke="#f7f5ef" stroke-width="10" stroke-linecap="round" opacity=".55"/>
+</svg>
